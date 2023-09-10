@@ -3,7 +3,7 @@ Genesis is a server-sided anticheat focused on the principal physics-based explo
 
 # Starting
 
-Starting up genesis is quite simple; all you have to do is call the `Manage` function, and import the needed modules (Charcoal, Waves) into your game.
+Starting up Genesis is quite simple; all you have to do is call the `Manage` function, and import the needed modules (Charcoal, Waves) into your game.
 
 ```lua
 local Genesis = require(GenesisModule)
@@ -12,7 +12,7 @@ Genesis.Manage()
 
 # Quitting
 
-To quit genesis, simply call the `Quit` function:
+To quit Genesis, simply call the `Quit` function:
 
 ```lua
 Genesis.Quit()
