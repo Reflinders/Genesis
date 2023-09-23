@@ -46,6 +46,6 @@ end)
 
 # Why Not Client?
 
-Client-based anticheats are generally unfavorable. Not only that, but with the efforts of the hundreds of exploiters online can easily bypass a client-based anticheat. 
+Client-based anticheats are generally unfavorable. Not only that, but the efforts of the hundreds of exploiters online can easily bypass a client-based anticheat. 
 Overall, The client is not to be trusted, as they have the power to manipulate properties, functions, and more. 
 Server-sided anticheats provide a solution to this, in that they have full control over themselves; cheaters cannot do anything to pause or stop a server-sided anticheat.
