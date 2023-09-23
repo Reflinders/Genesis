@@ -20,8 +20,7 @@ Genesis.Quit()
 
 # Features
 
-Genesis has 4 fundamental anti-exploits — Basic Movement (jumping, walking), Flying, Anti-gravity, and Noclip.
-In the future, I plan on adding a couple more.
+Genesis has 5 fundamental anti-exploits — Basic Movement (jumping, walking), Flying, Anti-gravity, Infjump, and Noclip. More may be added in the future.
 
 # Excusing & Whitelisting
 
@@ -32,6 +31,16 @@ local Excuse = Genesis.Excuse
 local Player = game.Players.Mlgisbetter -- Insert player here
 
 Excuse(Player, 50) -- Second argument is the amt of time
+```
+
+Also, you can externally excuse players by adding function "Bypass" `(Character: Model?) -> (boolean?)` in the Configuration module. Here's an example of how it might look like:
+
+```lua
+Bypass = function(Character: Model) : boolean?
+  if Character:FindFirstChild("ExcuseMe") then
+    return true -- By returning true, it will ignore the player for the moment
+  end
+end
 ```
 
 # Ragdoll Support
